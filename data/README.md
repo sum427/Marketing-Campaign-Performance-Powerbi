@@ -1,1 +1,1 @@
-This folder holder the raw and cleaned dataset.
+This folder holds the raw and cleaned dataset.
