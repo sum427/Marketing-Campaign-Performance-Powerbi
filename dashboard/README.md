@@ -1,1 +1,1 @@
-This folder holds images.
+This folder holds data.
