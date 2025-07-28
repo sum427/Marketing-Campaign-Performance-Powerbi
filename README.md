@@ -17,19 +17,19 @@ To showcase data cleaning, analysis and visualisation skills in a real world bus
 ---
 ## Repository Structure
 
-cleaning/
+`cleaning/`
 Step by step documentation of how the dataset was cleaned and transformed.
 Includes:
 
 cleaning_steps.md: Trimming, formatting, column renaming, column splitting (e.g., Target_Audience) and calculated fields (e.g., CTR, CPC, duration_weeks)
 
-dashboard/
+`dashboard/`
 Contains the final Power BI dashboard file.
 Includes:
 
 marketing_dashboard.pbix: Fully built and interactive dashboard with insights across performance, channels and demographics
 
-data/
+`data/`
 Raw and cleaned datasets.
 Includes:
 
@@ -37,13 +37,13 @@ marketing_data_raw.xlsx: Original unprocessed dataset
 
 marketing_data_cleaned.xlsx: Cleaned version used for dashboard creation
 
-images/
+`images/`
 Screenshots of all Power BI dashboard pages for quick reference.
 Includes:
 
 introduction.png, channel_overview.png, monthly_trends.png, demographics.png, conclusion.png, etc.
 
-snippets/
+`snippets/`
 Before and after data transformations and calculated metrics.
 Includes:
 
