@@ -4,7 +4,7 @@ This project analyses multichannel marketing campaign performance using **Power 
 
 ## Purpose
 
-To showcase data cleaning, analysis and visualisation skills in a real world business context, focusing on **campaign performance insights** to aid **marketing optimisation**. This project complements my previous SQL case study project: (https://github.com/sum427/sum427).
+To showcase data cleaning, analysis and visualisation skills in a real world business context, focusing on **campaign performance insights** to aid **marketing optimisation**. This project complements my previous SQL case study project: (https://github.com/sum427/Superstore-Sales-Analysis-SQL).
 
 ---
 
