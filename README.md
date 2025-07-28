@@ -27,29 +27,29 @@ cleaning_steps.md: Trimming, formatting, column renaming, column splitting (e.g.
 Contains the final Power BI dashboard file.
 Includes:
 
-marketing_dashboard.pbix: Fully built and interactive dashboard with insights across performance, channels and demographics
+`marketing_dashboard.pbix`: Fully built and interactive dashboard with insights across performance, channels and demographics
 
 `data/`
 Raw and cleaned datasets.
 Includes:
 
-marketing_data_raw.xlsx: Original unprocessed dataset
+`marketing_data_raw.xlsx`: Original unprocessed dataset
 
-marketing_data_cleaned.xlsx: Cleaned version used for dashboard creation
+`marketing_data_cleaned.xlsx`: Cleaned version used for dashboard creation
 
 `images/`
 Screenshots of all Power BI dashboard pages for quick reference.
 Includes:
 
-introduction.png, channel_overview.png, monthly_trends.png, demographics.png, conclusion.png, etc.
+`introduction.png`, `channel_overview.png`, `monthly_trends.png`, `demographics.png`, `conclusion.png`, etc.
 
 `snippets/`
 Before and after data transformations and calculated metrics.
 Includes:
 
-before_after_columns.md: Sample column values before and after cleaning
+`before_after_columns.md`: Sample column values before and after cleaning
 
-calculated_metrics.md: Table showing computed metrics (e.g., average ROI, CTR, conversion rate)
+`calculated_metrics.md`: Table showing computed metrics (e.g., average ROI, CTR, conversion rate)
 
 README.md
 This file. Contains the project overview, folder breakdown, cleaning explanation and instructions for viewing or reusing the dashboard.
