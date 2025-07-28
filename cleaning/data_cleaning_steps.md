@@ -47,7 +47,7 @@ Engagement_Rate
 → Captures total user interaction:
 Engagement Rate = (Engagements / Impressions) × 100
 
-## 5. FinaliSation
+## 5. Finalisation
 Verified data integrity and consistency across all rows and columns.
 
 Saved the cleaned dataset in Excel format (cleaned_marketing_data.xlsx) for use in Power BI.
