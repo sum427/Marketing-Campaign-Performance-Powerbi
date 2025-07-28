@@ -17,13 +17,32 @@ To showcase data cleaning, analysis and visualisation skills in a real world bus
 ---
 
 ## Repository Structure
-data/
-└── cleaned_marketing_data.xlsx
-└── raw_marketing_data.csv
- dashboard/
-└── marketing_dashboard.pbix
-images/
-└── *.png (screenshots of each Power BI page)
+│
+├── data/
+│   ├── raw_marketing_data.xlsx
+│   └── cleaned_marketing_data.xlsx
+│
+├── dashboard/
+│   └── marketing_dashboard.pbix
+│
+├── images/
+│   ├── page1_channel_overview.png
+│   ├── page2_monthly_trends.png
+│   ├── page3_channel_performance_over_time.png
+│   ├── page4_audience_insights.png
+│   ├── page5_introduction.png
+│   ├── page6_conclusion.png
+│   └── page7_glossary.png
+│
+├── cleaning/
+│   └── cleaning_steps.md
+│
+├── snippets/
+│   ├── before_cleaning_snippet.md
+│   ├── after_cleaning_snippet.md
+│   └── calculated_metrics_snippet.md
+│
+└── README.md
 ---
 
 ## Key Features of the Dashboard
