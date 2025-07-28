@@ -15,34 +15,44 @@ To showcase data cleaning, analysis and visualisation skills in a real world bus
 - **GitHub**: Version control and portfolio hosting
 
 ---
-
 ## Repository Structure
-│
-├── data/
-│   ├── raw_marketing_data.xlsx
-│   └── cleaned_marketing_data.xlsx
-│
-├── dashboard/
-│   └── marketing_dashboard.pbix
-│
-├── images/
-│   ├── page1_channel_overview.png
-│   ├── page2_monthly_trends.png
-│   ├── page3_channel_performance_over_time.png
-│   ├── page4_audience_insights.png
-│   ├── page5_introduction.png
-│   ├── page6_conclusion.png
-│   └── page7_glossary.png
-│
-├── cleaning/
-│   └── cleaning_steps.md
-│
-├── snippets/
-│   ├── before_cleaning_snippet.md
-│   ├── after_cleaning_snippet.md
-│   └── calculated_metrics_snippet.md
-│
-└── README.md
+
+cleaning/
+Step by step documentation of how the dataset was cleaned and transformed.
+Includes:
+
+cleaning_steps.md: Trimming, formatting, column renaming, column splitting (e.g., Target_Audience) and calculated fields (e.g., CTR, CPC, duration_weeks)
+
+dashboard/
+Contains the final Power BI dashboard file.
+Includes:
+
+marketing_dashboard.pbix: Fully built and interactive dashboard with insights across performance, channels and demographics
+
+data/
+Raw and cleaned datasets.
+Includes:
+
+marketing_data_raw.xlsx: Original unprocessed dataset
+
+marketing_data_cleaned.xlsx: Cleaned version used for dashboard creation
+
+images/
+Screenshots of all Power BI dashboard pages for quick reference.
+Includes:
+
+introduction.png, channel_overview.png, monthly_trends.png, demographics.png, conclusion.png, etc.
+
+snippets/
+Before and after data transformations and calculated metrics.
+Includes:
+
+before_after_columns.md: Sample column values before and after cleaning
+
+calculated_metrics.md: Table showing computed metrics (e.g., average ROI, CTR, conversion rate)
+
+README.md
+This file. Contains the project overview, folder breakdown, cleaning explanation and instructions for viewing or reusing the dashboard.
 ---
 
 ## Key Features of the Dashboard
