@@ -28,8 +28,10 @@ images/
 
 ## Key Features of the Dashboard
 
+Note: The ROI, CTR and Conversion Rate values used in the dashboard are calculated as averages across channels and time periods. This approach was chosen to simplify comparison, reduce volatility from outliers and present a clearer view of overall performance trends.
+
 ###  1. Channel Overview  
-- Comparison of ROI and CTR across marketing channels  
+- Comparison of average ROI and Average CTR across marketing channels  
 - Summary table of channel metrics  
 - Key Insights: Identifies most efficient channels, performance variability  
 
@@ -39,7 +41,7 @@ images/
 - Key Insights: Detects seasonal fluctuations and stable periods
 
 ### 3. Channel Performance Over Time  
-- Line charts tracking ROI and CTR monthly by channel  
+- Line charts tracking aveverage ROI and CTR monthly by channel  
 - Key Insights: Highlights optimisation periods, underperformance flags
 
 ### 4. Audience Insights  
@@ -51,6 +53,41 @@ images/
 - Clear summary of project goals and findings  
 - Glossary of marketing KPIs for clarity
 
+---
+## Data Cleaning Overview
+To prepare the raw dataset for analysis, several cleaning and transformation steps were applied.
+
+### Key Cleaning Steps
+Removed duplicates to ensure data integrity
+
+Trimmed whitespaces in categorical fields
+
+Removed dollar symbols from Acquisition_Cost and converted to float
+
+Converted percentages to decimals in Conversion_Rate
+
+Split Target_Audience into two columns: Target_Age_Range and Target_Gender
+
+Standardised the Duration column by removing "days" and renaming it to Duration_Days
+
+The example below highlights only a few affected columns from the original dataset to demonstrate key cleaning steps. The full dataset includes additional fields not shown here.
+
+## Before Cleaning:
+| Target_Audience | Duration     | Conversion_Rate  | Acquisition_Cost |
+|-----------------|--------------|------------------|------------------|
+| Men 18-24       | 30 days      | 4%               | $16174.00        |
+
+## After Cleaning
+| Target_Age_Range | Target_Gender | Duration_Days | Conversion_Rate | Acquisition_Cost |
+|------------------|---------------|---------------|-----------------|------------------|
+| 18-24            | Men           | 30            | 0.04            | 16174            |
+
+## New Metrics Added
+| CTR   | CPC  | Engagement_Rate | Duration_Weeks |
+|-------|------|-----------------|----------------|
+| 26.33%|31.96 | 0.31%           | 4.3            |
+
+See full cleaning process in /cleaning/data_cleaning_steps.md
 ---
 
 ## Glossary (Key Terms)
