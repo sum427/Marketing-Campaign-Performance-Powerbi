@@ -146,4 +146,8 @@ See the [`images/`](./images/) folder for full dashboard views.
 You can download and explore the interactive dashboard via the `.pbix` file in the [`dashboard/`](./dashboard/) folder.
 
 ---
+## Contact
+Author: Sumaya Mohamed
+Email: svmaya74@gmail.com 
+GitHub: github.com/sum427
 
