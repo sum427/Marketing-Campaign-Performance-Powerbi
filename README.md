@@ -149,5 +149,6 @@ You can download and explore the interactive dashboard via the `.pbix` file in t
 ## Contact
 Author: Sumaya Mohamed
 Email: svmaya74@gmail.com 
+Notion: https://www.notion.so/Sumaya-Mohamed-Analyst-Portfolio-240b7fc1004c8041ab53d43aff2735da
 GitHub: github.com/sum427
 
